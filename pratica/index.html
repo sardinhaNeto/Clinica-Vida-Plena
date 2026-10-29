@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Vida Plena</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Clínica Vida Plena</h1>
+        <p>Cuidando de você com atenção e carinho</p>
+    </header>
+
+    <section class="banner">
+        <div class="banner-conteudo">
+            <h2>Sua saúde em boas mãos</h2>
+            <p>Aqui você encontra atendimento humanizado, profissionais experientes e todo o cuidado que você e sua família merecem.</p>
+            <a class="botao" href="#servicos">Conheça nossos serviços</a>
+        </div>
+    </section>
+
+    <main>
+        <div class="linha">
+            <section class="bloco sobre">
+                <h2>Sobre nós</h2>
+                <p>Somos uma clínica dedicada ao bem-estar da sua família, com profissionais experientes e atendimento humanizado.</p>
+            </section>
+
+            <section class="bloco servicos" id="servicos">
+                <h2>Nossos Serviços</h2>
+                <ul>
+                    <li>Consulta de rotina</li>
+                    <li>Atendimento <span class="selo">24h</span></li>
+                    <li>Exames laboratoriais</li>
+                    <li>Avaliação nutricional</li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="servico">
+            <h2>Consulta de Rotina</h2>
+            <p>Avaliação geral com nosso clínico, com foco em prevenção e acompanhamento contínuo da sua saúde.</p>
+        </section>
+
+        <section class="bloco contato">
+            <h2>Contato</h2>
+            <p>Rua das Flores, 123 — Centro</p>
+            <p><a class="botao" href="mailto:contato@clinicavidaplena.com">Agende sua consulta</a></p>
+        </section>
+    </main>
+
+    <form class="formulario-contato" id="formulario-contato" action="https://formspree.io/f/mjyykjnv" method="post">
+        <h2>Envie uma mensagem</h2>
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" autocomplete="name" required>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        <button type="submit">Enviar mensagem</button>
+      </form>
+
+
+    <footer>
+        <p>&copy; 2026 Clínica Vida Plena</p>
+    </footer>
+</body>
+</html>
